@@ -18,7 +18,9 @@ To run the files:
 
 
 There are four files in the folder. Description of each of the file is given below.
-1. BehaviorTree.java : There are two characters. The blue bot is the "hero" who is chased by the other bot "villan". This program is        implementing Behavior Tree for both the bots. 
+
+1. BehaviorTree.java : There are two characters. The blue bot is the "hero" who is chased by the other bot "villan". This program is     implementing Behavior Tree for both the bots. 
+   
    The behavior is:
    For the blue bot: Initially it is wandering, but if it sees the enemy, then it tries to go to the "safe-zone" which is the blue area. The villan cant see the hero in the hiding area and villan will also start back wandering. If the hero enters the red zone, its suicide. if any of the bots enter the orangish zone, they loose speed as long as they are in there. If they enter the green zone they gain speed.
 
